@@ -135,3 +135,17 @@ p{
 	margin-top: 3.5em;
 }
 
+@media screen and (max-width: 360px;){
+	#aboutMe{
+	margin-left: 1.0em;
+	display: flex;
+	flex-direction: collumn;
+}
+	#projects{
+
+	margin-left: 1.0em;
+	display: flex;
+	}
+}
+
+

@@ -128,7 +128,7 @@ p{
 	margin-top: 3.5em;
 }
 
-@media (min-height: 896px){
+@media (min-height: 740px){
 	#navbar {
 	position: fixed;
 	z-index: 1;

@@ -52,6 +52,8 @@ a:hover{
 
 body{
 	background-image: linear-gradient(to bottom,  #660066, #2929a3, #000066);
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #hello{

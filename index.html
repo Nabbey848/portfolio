@@ -14,8 +14,21 @@
 	<a href="#projectslink" class="nav-link">Projects</a>
 </nav>
 </div>
-	<div id="home"><main id="welcome-section"></div>
-	<div><h1 id="hello">Hi</h1></div>
+	<div id="home"><main></div>
+	<div><h1 id="hello">Hello World!</h1></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+$(function () {
+	i = 0;
+	dL = ["Hello World!", "My name is Nick!"];
+	setInterval(function () {
+		i++;
+		$("#hello").fadeOut(500, function () {
+		$(this).text(dL[i % dL.length]).fadeIn(500);
+    });
+  }, 2500);
+});
+</script>
 <div id="about"></div>
 <div>
 <h2>ABOUT</h2>
@@ -39,18 +52,5 @@
 </main>
 </div>
 <script type="text/javascript" src="portfolio.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>
-$(function () {
-	i = 0;
-	dL = ["HI", "HOLA", "BOUNJOUR", "GUTEN TAG", "CIAO", "NAMASTE", "OLÀ", "SALAAM", "KONNICHIWA", "MERHABA", "SAIN BAINUU", "SZIA", "MARHABA", "SALAMA ALEIKUM", "JAMBO", "NI HAU"];
-	setInterval(function () {
-		i++;
-		$("#hello").fadeOut(500, function () {
-		$(this).text(dL[i % dL.length]).fadeIn(500);
-    });
-  }, 2500);
-});
-</script>
 </body>
 </html>

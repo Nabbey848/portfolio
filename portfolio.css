@@ -3,6 +3,7 @@
 	margin-left: 0;
 	padding: 1.0em;
 	font-family: 'Ubuntu', sans-serif;
+	color: #ffffff;
 }
 
 
@@ -22,7 +23,7 @@
 	position: relative;
 	padding: 10px;
 	text-decoration: none;
-	color: white;
+	color: #ffffff;
 	font-weight: bold;
 	font-size: 1.8em;
 	text-transform: uppercase;
@@ -49,7 +50,6 @@ a{
 
 a:hover{
 
-	color: #cc00ff;
 	border-radius: 10px
 }
 

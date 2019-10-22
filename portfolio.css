@@ -41,6 +41,12 @@ div{
 	color: #ffffff;
 	}
 
+@media screen and (min-width: 320px){
+	div{
+		top: 250px;
+	}
+}
+
 @media screen and (min-width: 375px){
 	#navbar{
 		height: 1.9em;

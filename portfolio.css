@@ -227,7 +227,7 @@ p{
 
 
 }
-@media all and (orientation: landscape) {
+@media (min-device-width: 480px) and (orientation: landscape) {
 	h1{
 		font-size: 3.0em;
 	}

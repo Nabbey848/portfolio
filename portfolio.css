@@ -18,10 +18,19 @@
 	color: white;
 	font-weight: bold;
 	font-size: 1.2em;
-	text-transform: uppercase;
 	border-radius: 10px;
 }
 
 .nav-link:hover{
 	color: #ffffff;
+	}
+
+@media screen and (min-width: 375px){
+	#navbar{
+		height: 2.3em;
+	}
 	
+	.nav-link{
+		font-size: 1.5em;
+	}
+}

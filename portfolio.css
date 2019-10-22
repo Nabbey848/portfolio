@@ -1,8 +1,13 @@
-html{
+html {
 	font-family: 'Ubuntu', sans-serif;
 	height: 300%;
-
+	top: 0;
+	bottom: 0;
+	left:0;
+	right: 0;
+	
 }
+
 
 
 #navbar{
@@ -40,7 +45,7 @@ html{
 }
 
 a{
-	color: black;
+
 	font-family: 'Ubuntu', sans-serif;
 	display: inline;
 	
@@ -191,7 +196,7 @@ p{
 		font-size: 1.8em;
 	}
 }
-@media (min-height: 600px) and (min-width: 768px){
+@media (min-height: 600px) and (min-width: 600px){
 	h1{
 		font-size: 5.0em;
 	}
@@ -214,24 +219,17 @@ p{
 		font-size: 3.0em;
 	}
 }
-@media (min-height: 1024px) {
-	#navbar{
-		height: 4.2em;
-	}
-	
-	.nav-link{
-		font-size: 3.5em;
-	}
-}
+
 @media all and (orientation:portrait) {
 	h1{
 		top: 700px;
 	}
 
+
 }
 @media all and (orientation: landscape) {
 	h1{
-		font-size: 4.0em;
+		font-size: 3.0em;
 	}
 	
 	h2{
@@ -241,6 +239,7 @@ p{
 	#aboutMe{
 		top: 250px;
 		flex-direction: row;
+		font-size: 0.8em;
 	}
 	.small-image{
 	max-height: 600px;

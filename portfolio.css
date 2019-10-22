@@ -236,11 +236,6 @@ p{
 		top: 230px;
 	}
 	
-	#aboutMe{
-		top: 250px;
-		flex-direction: row;
-		font-size: 0.8em;
-	}
 	.small-image{
 	max-height: 600px;
 	max-width: 300px;
@@ -251,6 +246,11 @@ p{
 	
 	.h2{
 		top: 0px;
+	}
+	#aboutMe{
+		top: 250px;
+		flex-direction: row;
+		font-size: 0.8em;
 	}
 	
 	#projects{

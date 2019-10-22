@@ -1,12 +1,7 @@
 html{
 	font-family: 'Ubuntu', sans-serif;
-height: 280%;
-}
-#welcome-section{
-	margin-top: 2.5em;
-	margin-left: 0;
-	padding: 1.0em;
 	
+
 }
 
 
@@ -81,16 +76,19 @@ h2{
 	top: 1400px;
 	margin-top: 4.5em;
 	margin-right: 1.0em;
-	font-size: 4.0em;
+	font-size: 4.5em;
+	padding: 20px;
 	opacity: 0.5;
 	text-align: right;
-	
+	color: #ffffff;
+}
+.h2{
+	position: relative;
 }
 
 #aboutMe{
 	position: relative;
-	top: 1400px;
-	margin-left: 1.0em;
+	top: 1500px;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -106,10 +104,10 @@ h2{
 .small-image{
 	height: auto;
 	width: auto;
-	max-height: 400px;
-	max-width: 300px;
+	max-height: 800px;
+	max-width: 600px;
 	transform: rotate(90deg);
-	border-radius: 10px;
+	border-radius: 20px;
 	
 	}
 
@@ -133,7 +131,7 @@ h2{
 	border-radius: 10px;
 	transition: transform .2s;
 	position: relative;
-	top: 2000px;
+	top: 110em;
 	padding: 10px;
 }
 
@@ -189,6 +187,9 @@ p{
 	}
 }
 @media (min-height: 600px) and (min-width: 768px){
+	h1{
+		font-size: 5.0em;
+	}
 	
 	#navbar{
 		height: 3.6em;
@@ -220,5 +221,44 @@ p{
 @media all and (orientation:portrait) {
 	h1{
 		top: 700px;
+	}
+
+}
+@media all and (orientation: landscape) {
+	h1{
+		font-size: 4.0em;
+	}
+	
+	h2{
+		top: 230px;
+	}
+	
+	#aboutMe{
+		top: 250px;
+		flex-direction: row;
+	}
+	.small-image{
+	max-height: 600px;
+	max-width: 300px;
+	transform: rotate(90deg);
+	border-radius: 10px;
+	
+	}
+	
+	.h2{
+		top: 0px;
+	}
+	
+	#projects{
+	top: 0px;
+	display: flex;
+	}
+	
+	.small-image-two{
+		max-width: 320px;
+	}
+	
+	.small-image-two:hover{
+	transform: scale(1.2);
 	}
 }

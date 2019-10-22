@@ -36,6 +36,10 @@ h1{
 	}
 
 @media screen and (min-width: 375px){
+	h1{
+		padding: none;
+	}
+	
 	#navbar{
 		height: 1.9em;
 	}

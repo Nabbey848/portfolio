@@ -1,22 +1,16 @@
-body{
+html{
 	font-family: 'Ubuntu', sans-serif;
-	height: 100%;
-	background-image: linear-gradient(to bottom, #660066, #6600cc, #000066);
-	margin: 0 0 0 0;
+height: 280%;
 }
-
-h1{
-	text-align: center;
+#welcome-section{
+	margin-top: 2.5em;
+	margin-left: 0;
 	padding: 1.0em;
 	
 }
 
-div{
-	position: relative;
-	top: 330px;
-}
 
-  #navbar{
+#navbar{
 	position: fixed;
 	z-index: 1;
 	width: 100%;
@@ -24,35 +18,148 @@ div{
 	border: solid;
 	top: 0;
 	left: 0;
-	height: 1.6em;
+	height: 4.3em;
 	
 }
 
 .nav-link{
 	position: relative;
-	padding: 10px;
+	padding: 0.5em;
 	text-decoration: none;
 	color: white;
 	font-weight: bold;
-	font-size: 1.2em;
-	border-radius: 10px;
+	font-size: 1.6em;
 	text-transform: uppercase;
+	border-radius: 10px;
 }
 
 .nav-link:hover{
 	color: #ffffff;
+
+}
+
+#hello{
+	font-size: 7.0em;
+	
+	
+}
+
+a{
+	color: black;
+	font-family: 'Ubuntu', sans-serif;
+	display: inline;
+	
+}
+
+a:hover{
+
+	color: #cc00ff;
+	border-radius: 10px
+}
+
+body{
+	background-image: linear-gradient(to bottom, #660066, #6600cc, #000066);
+	
+}
+
+#hello{
+	font-size: 8.0em;
+	text-align: center;
+	color: #ffffff;
+	opacity: 0.8;
+}
+
+
+h1{
+	position: relative;
+	top: 150px;
+	
+}
+
+h2{
+	position: relative;
+	top: 1400px;
+	margin-top: 4.5em;
+	margin-right: 1.0em;
+	font-size: 4.0em;
+	opacity: 0.5;
+	text-align: right;
+	
+}
+
+#aboutMe{
+	position: relative;
+	top: 1400px;
+	margin-left: 1.0em;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+#projects{
+	position: relative;
+	top: 1400px;
+	margin-left: 1.0em;
+	display: flex;
+}
+
+.small-image{
+	height: auto;
+	width: auto;
+	max-height: 400px;
+	max-width: 300px;
+	transform: rotate(90deg);
+	border-radius: 10px;
+	
 	}
 
+.small-image-two{
+	margin-left: 6.0em;
+	height: auto;
+	width: 100%;
+	max-width: 640px;
+	border-radius: 10px;
+	transition: transform .2s;
+}
+.small-image-two:hover{
+	transform: scale(1.005);
+}
+
+.link-images{
+	height: auto;
+	width: 100%;
+	max-height: 50px;
+	max-width: 50px;
+	border-radius: 10px;
+	transition: transform .2s;
+	position: relative;
+	top: 2000px;
+	padding: 10px;
+}
+
+.link-images:hover{
+	transform: scale(1.1);
+}
+
+p{	
+	padding: 1.0em;
+	font-size: 1.2em;
+	line-height: 2.0;
+	color: #ffffff;
+}
+
+#bLinks{
+	text-align: center;
+	line-height: 2.0;
+	margin-top: 3.5em;
+}
+
 @media screen and (min-width: 320px){
-	div{
-		top: 200px;
-	}
+	
 }
 
 @media (min-height: 812px) and (min-width: 375px){
-	div{
-		top: 350px;
-	}
+	
 	#navbar{
 		height: 1.9em;
 	}
@@ -72,9 +179,6 @@ div{
 	}
 }
 @media screen and (min-width: 411px){
-	div{
-		top: 250px;
-	}
 	
 	#navbar{
 		height: 2.2em;
@@ -85,9 +189,7 @@ div{
 	}
 }
 @media (min-height: 600px) and (min-width: 768px){
-	div{
-		top: 250px;
-	}
+	
 	#navbar{
 		height: 3.6em;
 	}
@@ -107,16 +209,16 @@ div{
 	}
 }
 @media (min-height: 1024px) {
-	div{
-		top: 450px;
-	}
 	#navbar{
-		height: 3.9em;
+		height: 4.2em;
 	}
 	
 	.nav-link{
 		font-size: 3.5em;
 	}
 }
-
-
+@media all and (orientation:portrait) {
+	h1{
+		top: 700px;
+	}
+}

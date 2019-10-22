@@ -3,6 +3,11 @@ body{
 	font-family: 'Ubuntu', sans-serif;
 }
 
+h1{
+	text-align: center;
+	padding: 2.0em;
+}
+
   #navbar{
 	position: fixed;
 	z-index: 1;
@@ -60,7 +65,7 @@ body{
 
 @media screen and (min-width: 1400px){
 	#navbar{
-		height: 6.2em;
+		height: 6.6em;
 	}
 	
 	.nav-link{

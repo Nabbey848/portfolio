@@ -10,3 +10,17 @@
 	height: 2.5em;
 	
 }
+
+.nav-link{
+	position: relative;
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 1.8em;
+	text-transform: uppercase;
+	border-radius: 10px;
+}
+
+.nav-link:hover{
+	color: #ffffff;

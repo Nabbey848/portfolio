@@ -1,7 +1,8 @@
 body{
-	background-image: linear-gradient(to bottom, #660066, #6600cc, #000066);
 	font-family: 'Ubuntu', sans-serif;
 	height: 100%;
+	background-image: linear-gradient(to bottom, #660066, #6600cc, #000066);
+	margin: 0 0 0 0;
 }
 
 h1{

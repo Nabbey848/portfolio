@@ -97,11 +97,23 @@ div{
 
 @media (min-height: 600px) and (min-width: 1400px){
 	#navbar{
-		height: 6.6em;
+		height: 3.5em;
 	}
 	
 	.nav-link{
-		font-size: 5.6em;
+		font-size: 3.0em;
+	}
+}
+@media (min-height: 1024px) {
+	div{
+		top: 450px;
+	}
+	#navbar{
+		height: 3.9em;
+	}
+	
+	.nav-link{
+		font-size: 3.5em;
 	}
 }
 

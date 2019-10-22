@@ -5,8 +5,13 @@ body{
 
 h1{
 	text-align: center;
-	padding: 2.0em;
-	height: 600px;
+	padding: 1.0em;
+	
+}
+
+div{
+	position: relative;
+	top: 330px;
 }
 
   #navbar{

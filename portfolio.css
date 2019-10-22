@@ -47,7 +47,10 @@ div{
 	}
 }
 
-@media screen and (min-width: 375px){
+@media (min-height: 812px) and (min-width: 375px){
+	div{
+		top: 350px;
+	}
 	#navbar{
 		height: 1.9em;
 	}
@@ -56,7 +59,21 @@ div{
 		font-size: 1.5em;
 	}
 }
-@media screen and (min-width: 414px){
+
+@media (min-width: 375px){
+	#navbar{
+		height: 1.9em;
+	}
+	
+	.nav-link{
+		font-size: 1.5em;
+	}
+}
+@media screen and (min-width: 411px){
+	div{
+		top: 250px;
+	}
+	
 	#navbar{
 		height: 2.2em;
 	}
@@ -65,7 +82,10 @@ div{
 		font-size: 1.8em;
 	}
 }
-@media screen and (min-width: 768px){
+@media (min-height: 600px) and (min-width: 768px){
+	div{
+		top: 250px;
+	}
 	#navbar{
 		height: 3.6em;
 	}
@@ -75,7 +95,7 @@ div{
 	}
 }
 
-@media screen and (min-width: 1400px){
+@media (min-height: 600px) and (min-width: 1400px){
 	#navbar{
 		height: 6.6em;
 	}

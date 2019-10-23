@@ -18,7 +18,7 @@ html {
 	border: solid;
 	top: 0;
 	left: 0;
-	height: 4.3em;
+	height: 2.3em;
 	
 }
 
@@ -28,7 +28,7 @@ html {
 	text-decoration: none;
 	color: white;
 	font-weight: bold;
-	font-size: 1.6em;
+	font-size: 1.0em;
 	text-transform: uppercase;
 	border-radius: 10px;
 }
@@ -36,12 +36,6 @@ html {
 .nav-link:hover{
 	color: #ffffff;
 
-}
-
-#hello{
-	font-size: 7.0em;
-	
-	
 }
 
 a{
@@ -63,7 +57,7 @@ body{
 }
 
 #hello{
-	font-size: 8.0em;
+	font-size: 4.0em;
 	text-align: center;
 	color: #ffffff;
 	opacity: 0.8;
@@ -97,7 +91,7 @@ h2{
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	font-size: 1.5em;
+
 }
 
 #projects{

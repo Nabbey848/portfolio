@@ -238,7 +238,6 @@ p{
 	.small-image{
 	max-height: 600px;
 	max-width: 300px;
-	transform: rotate(90deg);
 	border-radius: 10px;
 	
 	}
@@ -248,8 +247,7 @@ p{
 	}
 	#aboutMe{
 		top: 250px;
-		flex-direction: row;
-		font-size: 0.8em;
+		font-size: 1.0em;
 	}
 	
 	#projects{

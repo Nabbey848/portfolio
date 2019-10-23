@@ -61,6 +61,7 @@ body{
 	text-align: center;
 	color: #ffffff;
 	opacity: 0.8;
+	font-size: 4.0em;
 }
 
 h2{
@@ -72,6 +73,7 @@ h2{
 	opacity: 0.5;
 	text-align: right;
 	color: #ffffff;
+	font-size: 3.0em;
 }
 .h2{
 	position: relative;

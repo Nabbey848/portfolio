@@ -183,26 +183,24 @@ p{
 	}
 }
 @media (min-height: 600px) and (min-width: 600px){
-	h1{
-		font-size: 5.0em;
-	}
+	
 	
 	#navbar{
-		height: 3.6em;
+		height: 1.6em;
 	}
 	
 	.nav-link{
-		font-size: 3.0em;
+		font-size: 1.0em;
 	}
 }
 
 @media (min-height: 600px) and (min-width: 1400px){
 	#navbar{
-		height: 3.5em;
+		height: 1.5em;
 	}
 	
 	.nav-link{
-		font-size: 3.0em;
+		font-size: 1.0em;
 	}
 }
 

@@ -158,52 +158,52 @@ p{
 @media (min-height: 812px) and (min-width: 375px){
 	
 	#navbar{
-		height: 1.9em;
+		height: 2.9em;
 	}
 	
 	.nav-link{
-		font-size: 1.5em;
+		font-size: 2.5em;
 	}
 }
 
 @media (min-width: 375px){
 	#navbar{
-		height: 1.9em;
+		height: 2.9em;
 	}
 	
 	.nav-link{
-		font-size: 1.5em;
+		font-size: 2.5em;
 	}
 }
 @media screen and (min-width: 411px){
 	
 	#navbar{
-		height: 2.2em;
+		height: 3.2em;
 	}
 	
 	.nav-link{
-		font-size: 1.8em;
+		font-size: 2.8em;
 	}
 }
 @media (min-height: 600px) and (min-width: 600px){
 	
 	
 	#navbar{
-		height: 1.6em;
+		height: 2.6em;
 	}
 	
 	.nav-link{
-		font-size: 1.0em;
+		font-size: 2.0em;
 	}
 }
 
 @media (min-height: 600px) and (min-width: 1400px){
 	#navbar{
-		height: 1.5em;
+		height: 2.5em;
 	}
 	
 	.nav-link{
-		font-size: 1.0em;
+		font-size: 2.0em;
 	}
 }
 
@@ -235,7 +235,7 @@ p{
 	}
 	#aboutMe{
 		top: 250px;
-		font-size: 1.0em;
+	
 	}
 	
 	#projects{

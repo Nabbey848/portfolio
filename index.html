@@ -6,20 +6,40 @@
 <link href="https://fonts.googleapis.com/css?family=Lobster+Two|Ubuntu&display=swap" rel="stylesheet">
 </head>
 <body>
-<div  id="home">
+<div">
 <nav id="navbar">
-	<a href="#home" class="nav-link">Home</a>
 	<a href="#about" class="nav-link">About</a>
 	<a href="#projectslink" class="nav-link">Projects</a>
 </nav>
 </div>
 <div><main>
 <div><h1 id="hello">Hi</h1></div>
+<div>
+<h2 id="about">About</h2>
+<section id="aboutMe">
+<a><img class="small-image" src="https://i.imgur.com/nYSKcVdg.jpg" alt="Profile Pic"></a>
+<p>Hi I'm Nick and I'm a Web Developer skilled in HTML, Javascript, and CSS.</p>
+<p>"When you look at people who are successful, you will find that they aren't the people who are motivated, but have consistency in their motivation." 	- Arsene Wenger</p>
+</section>
+</div>
+<div>
+<h3 id="projectslink">Projects</h3>
+<section id="projects">
+<a href="https://codepen.io/nabbey848/pen/MWWbLxz" target="_blank"><img class="small-image-two" src="https://screenshot.codepen.io/3667604.MWWbLxz.small.bd132976-e88a-4e6e-94bd-f799d3281ddc.png"></a>
+</section>
+</div>
+<div id="bLinks">
+<a href="https://www.linkedin.com/in/nick-abbey-3a40bbab?trk=people-guest_profile-result-card_result-card_full-click" target="_blank"><img class="link-images h2" src="https://i0.wp.com/lightbulbgrip.com/wp-content/uploads/2018/11/linkedin-icon-png-transparent-background-13.png?fit=512%2C512&ssl=1" alt="LinkenIn Logo"></a>
+</div>
+<div id="copyright">&copy; All Rights Resereved</div>
+</main>
+</div>
+<script type="text/javascript" src="portfolio.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>
 $(function () {
 	i = 0;
-	dL = ["Hi", "Olá", "Ahoj", "Sveiki", "Bounjour", "Guten Tag", "Aloha", "Mholweni", "Selam", "Ciao", "Nǐ hǎo", "Salve"];
+	dL = ["Hi", "Hola", "Olá", "Ahoj", "Sveiki", "Bounjour", "Guten Tag", "Aloha", "Mholweni", "Selam", "Ciao", "Nǐ hǎo", "Salve"];
 	setInterval(function () {
 		i++;
 		$("#hello").fadeOut(800, function () {
@@ -28,30 +48,5 @@ $(function () {
   }, 2500);
 });
 </script>
-<div>
-<h2 id="about">About</h2>
-<section id="aboutMe">
-<a><img class="small-image" src="https://i.imgur.com/nYSKcVdg.jpg" alt="Profile Pic"></a>
-<br>
-<p>Hi I'm Nick and I'm a Web Developer skilled in HTML, Javascript, and CSS.</p>
-<p>"When you look at people who are successful, you will find that they aren't the people who are motivated, but have consistency in their motivation." 	- Arsene Wenger</p>
-</section>
-</div>
-<div>
-<h2 id="projectslink" class="h2">Projects</h2>
-<section id="projects">
-<a href="https://codepen.io/nabbey848/pen/MWWbLxz" target="_blank"><img class="small-image-two" src="https://screenshot.codepen.io/3667604.MWWbLxz.small.bd132976-e88a-4e6e-94bd-f799d3281ddc.png"></a>
-</section>
-</div>
-<div id="bLinks">
-<a href="https://www.linkedin.com/in/nick-abbey-3a40bbab?trk=people-guest_profile-result-card_result-card_full-click" target="_blank"><img class="link-images h2" src="https://i0.wp.com/lightbulbgrip.com/wp-content/uploads/2018/11/linkedin-icon-png-transparent-background-13.png?fit=512%2C512&ssl=1" alt="LinkenIn Logo"></a>
-<a href="https://www.freecodecamp.org/fccd115cc39-5a36-4b78-b4fe-4a453e2597ce" target="_blank" id="profile-link"><img class="link-images h2" src="https://secure.meetupstatic.com/photos/event/4/c/b/b/600_468259643.jpeg" alt="freecodecamp logo"></a>
-</div>
-<div class="cr" style="margin-top: 10px; text-align:center;"><p>&copy; All Rights Resereved</p></div>
-</main>
-</div>
-<script type="text/javascript" src="portfolio.js"></script>
-
-
 </body>
 </html>

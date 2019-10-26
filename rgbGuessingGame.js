@@ -19,6 +19,7 @@ eB.addEventListener("click", function(){
 	win.textContent = pickedColor;
 	h1.style.background = "#009999";
 	messageDisplay.textContent = "";
+	resetB.textContent = "New Colors";
 	
 	for(var i = 0; i < squares.length; i++){
 		if(colors[i]){
@@ -40,6 +41,7 @@ hB.addEventListener("click", function(){
 	pickedColor = pickColor();
 	win.textContent = pickedColor;
 	messageDisplay.textContent = "";
+	resetB.textContent = "New Colors";
 	
 	for(var i = 0; i < squares.length; i++){
 		squares[i].style.backgroundColor = colors[i];
